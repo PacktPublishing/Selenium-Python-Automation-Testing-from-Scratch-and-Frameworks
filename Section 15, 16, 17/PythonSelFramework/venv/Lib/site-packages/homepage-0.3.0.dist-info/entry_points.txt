@@ -1,0 +1,3 @@
+[console_scripts]
+homepage=homepage:main
+

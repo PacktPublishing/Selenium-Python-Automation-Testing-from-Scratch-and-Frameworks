@@ -1,0 +1,7 @@
+2019-10-27 17:01:54,259 :INFO : pytestsDemo.BaseClass :Rahul
+2019-10-27 17:01:54,264 :INFO : pytestsDemo.BaseClass :rahulshettyacademy.com
+2019-10-27 17:09:20,863 :INFO : test_editProfile :Rahul
+2019-10-27 17:09:20,863 :INFO : test_editProfile :rahulshettyacademy.com
+2019-10-27 17:11:11,713 :INFO : test_editProfile :Rahul
+2019-10-27 17:11:11,713 :INFO : test_editProfile :rahulshettyacademy.com
+2019-10-27 17:11:11,737 :CRITICAL : pytestsDemo.test_logging :Critical issue

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d2332" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://unpkg.com/material-components-web@3.2.0/dist/material-components-web.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css">
+  <script src="https://unpkg.com/material-components-web@3.2.0/dist/material-components-web.min.js"></script>
+  <title>HomePage</title>
+  <link rel="icon" href="./static/favicon.png">
+  <link rel="stylesheet" href="./static/styles.min.css" type="text/css">
+</head>
+<body class="mdc-typography">
+  <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+    <div class="mdc-top-app-bar__row">
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+        <button onclick="window.history.back();" class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">arrow_back</button>
+        <span class="mdc-top-app-bar__title">HomePage</span>
+      </section>
+    </div>
+  </header>
+  <div class="blurred_bg"></div>
+  <div class="main_page_body mdc-top-app-bar--fixed-adjust">
+    <div class="mdc-layout-grid">
+      <div class="mdc-layout-grid__inner">
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet">
+          <div class="mdc-card mdc-elevation-transition resources-tab-card">
+            <div class="padded-resource-card">
+                <h2 class="resource-card-title mdc-typography mdc-typography--headline6">Download Audio</h2>
+                <h3 class="resource-card-subtitle mdc-typography mdc-typography--subtitle2">with youtube_dl</h3>
+            </div>
+            <div class="resource-card-secondary mdc-typography mdc-typography--body2">
+              Download the audio track from almost any internet video, just paste the link, set your options, and click download!<br>
+              <br>
+              <span id="checkbox-control">Attach Thumbnail:</span>
+              <div class="mdc-form-field" id="checkbox-form-field">
+                <div class="mdc-checkbox">
+                  <input type="checkbox"
+                         class="mdc-checkbox__native-control"
+                         name="attach_thumb"/>
+                  <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark"
+                         viewBox="0 0 24 24">
+                      <path class="mdc-checkbox__checkmark-path"
+                            fill="none"
+                            d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <span id="format-selection">Format Preference:</span>
+              <div class="mdc-form-field" id="form-field-1">
+                <div class="mdc-radio" id="radio-btn-1">
+                  <input class="mdc-radio__native-control" type="radio" id="radio-1" name="format_preference" checked>
+                  <div class="mdc-radio__background">
+                    <div class="mdc-radio__outer-circle"></div>
+                    <div class="mdc-radio__inner-circle"></div>
+                  </div>
+                </div>
+                <label for="radio-1">MP3</label>
+              </div>
+              <div class="mdc-form-field" id="form-field-2">
+                <div class="mdc-radio" id="radio-btn-2">
+                  <input class="mdc-radio__native-control" type="radio" id="radio-2" name="format_preference">
+                  <div class="mdc-radio__background">
+                    <div class="mdc-radio__outer-circle"></div>
+                    <div class="mdc-radio__inner-circle"></div>
+                  </div>
+                </div>
+                <label for="radio-2">M4A</label>
+              </div>
+              <br>
+              <span id="quality-selection">Preferred Quality:&nbsp;&nbsp;</span>
+              <div id="site-menu-anchor" class="mdc-menu-surface--anchor">
+                <button class="mdc-button" id="menu-opener-btn">Good (192k, Medium)</button>
+                <div class="mdc-menu mdc-menu-surface" id="main-quality-menu">
+                  <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
+                    <li class="mdc-list-item" role="menuitem" id="menu-pref-1">
+                      <span class="mdc-list-item__text">Standard (128k, Fast)</span>
+                    </li>
+                    <li class="mdc-list-item" role="menuitem" id="menu-pref-2">
+                      <span class="mdc-list-item__text">Good (192k, Medium)</span>
+                    </li>
+                    <li class="mdc-list-item" role="menuitem" id="menu-pref-3">
+                      <span class="mdc-list-item__text">Best (256k, Slow)</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="mdc-card__actions adjusted-card-actions">
+              <div class="mdc-text-field mdc-text-field--outlined textfield_span_width_full" id="HIBP_Textfield">
+                <form name="submitLink" method="post" action="." class="page-form" onkeydown="return event.key != 'Enter';">
+                  <input name="videoURL" class="mdc-text-field__input" type="url" autocomplete="off">
+                </form>
+                <div class="mdc-notched-outline">
+                  <div class="mdc-notched-outline__leading leading-notch-textfield"></div>
+                  <div class="mdc-notched-outline__notch">
+                    <label class="mdc-floating-label">Link</label>
+                  </div>
+                  <div class="mdc-notched-outline__trailing trailling-notch-textfield"></div>
+                </div>
+              </div>
+              <div class="mdc-card__action-icons">
+                <button onclick="sendDownloadRequest();" class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true" id="submit-main-form">arrow_forward</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="Previous-Track-Table" class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet">
+          <ul class="mdc-list unselectable-text">
+
+            {{ previous_items|safe }}
+
+          </ul>
+        </div>
+        <div class="mdc-snackbar">
+          <div class="mdc-snackbar__surface">
+            <div class="mdc-snackbar__label"
+                 role="status"
+                 aria-live="polite">
+              Snackbar Text.
+            </div>
+            <div class="mdc-snackbar__actions">
+              <button type="button" class="mdc-button mdc-snackbar__action" id="snackbarActionBtnRipple">Action</button>
+              <button class="mdc-icon-button mdc-snackbar__dismiss material-icons" title="Dismiss">close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./static/script.min.js"></script>
+  <script>
+
+    {{ extra_js|safe }}
+
+  </script>
+</body>
+</html>
