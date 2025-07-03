@@ -1,0 +1,272 @@
+1656160975804	geckodriver	INFO	Listening on 127.0.0.1:51615
+1656160976315	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51616" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileNT6m2I"
+1656160976989	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileNT6m2I/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51616/devtools/browser/576168dd-ba70-460b-bd7a-ea594c78c3ae
+1656160978742	Marionette	INFO	Listening on port 51649
+Read port: 51649
+1656160978821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656161122131	geckodriver	INFO	Listening on 127.0.0.1:52269
+1656161122645	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52270" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileGddY3n"
+1656161123003	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileGddY3n/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52270/devtools/browser/91ca9339-9667-48cb-b2c9-ae892d09ff96
+1656161124658	Marionette	INFO	Listening on port 52302
+Read port: 52302
+1656161124727	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656161317821	Marionette	INFO	Stopped listening on port 52302
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656161319333	Marionette	INFO	Stopped listening on port 51649
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656163538162	geckodriver	INFO	Listening on 127.0.0.1:61478
+1656163538675	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61479" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileI0zFLR"
+1656163539035	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileI0zFLR/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:61479/devtools/browser/ff4c47c8-4c00-4049-8617-7e0ddb0e53a2
+1656163540547	Marionette	INFO	Listening on port 61512
+Read port: 61512
+1656163540659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656163627243	geckodriver	INFO	Listening on 127.0.0.1:61906
+1656163627756	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61907" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofile27ZvzV"
+1656163628089	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofile27ZvzV/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:61907/devtools/browser/5b0a2cb5-70b5-4b45-a7aa-2e38a4645205
+1656163629655	Marionette	INFO	Listening on port 61937
+Read port: 61937
+1656163629738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656163693277	geckodriver	INFO	Listening on 127.0.0.1:62245
+1656163693785	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62246" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofilepoh26U"
+1656163694114	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofilepoh26U/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:62246/devtools/browser/cced0c1f-d03c-44d8-8536-72fc65232235
+1656163695720	Marionette	INFO	Listening on port 62277
+Read port: 62277
+1656163695745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656163705630	geckodriver	INFO	Listening on 127.0.0.1:62362
+1656163706143	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62363" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileaFIOuA"
+1656163706470	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileaFIOuA/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:62363/devtools/browser/0456c997-dde9-4ffb-b17f-4f0f0c792951
+1656163708043	Marionette	INFO	Listening on port 62402
+Read port: 62402
+1656163708113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656163744354	geckodriver	INFO	Listening on 127.0.0.1:62589
+1656163744869	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62590" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofilemYmuJd"
+1656163745275	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofilemYmuJd/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:62590/devtools/browser/db3f030a-e204-45d0-b152-d7d20d76dcdd
+1656163746778	Marionette	INFO	Listening on port 62618
+Read port: 62618
+1656163746848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656163805497	geckodriver	INFO	Listening on 127.0.0.1:62909
+1656163805506	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62910" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofile9S4onb"
+1656163805885	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofile9S4onb/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:62910/devtools/browser/9bb8b3a5-34a1-4ec9-a431-72e33bfef8d9
+1656163807498	Marionette	INFO	Listening on port 62941
+Read port: 62941
+1656163807587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656163881434	Marionette	INFO	Stopped listening on port 61512
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1656163883101	Marionette	INFO	Stopped listening on port 61937
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1656163885962	Marionette	INFO	Stopped listening on port 62277
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656163887381	Marionette	INFO	Stopped listening on port 62402
+1656163888658	Marionette	INFO	Stopped listening on port 62618
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656163890113	Marionette	INFO	Stopped listening on port 62941
+1656282215266	geckodriver	INFO	Listening on 127.0.0.1:59558
+1656282215781	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59559" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileNXtCcD"
+1656282216510	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileNXtCcD/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:59559/devtools/browser/aca6ea6f-3a23-4cf8-ab63-047d3de5088d
+1656282218339	Marionette	INFO	Listening on port 59592
+Read port: 59592
+1656282218388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656282326178	geckodriver	INFO	Listening on 127.0.0.1:60095
+1656282326187	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60096" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofile4MBRMq"
+1656282326557	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofile4MBRMq/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:60096/devtools/browser/9a163a52-6136-45e6-8dbd-a7f35fd68b58
+1656282328117	Marionette	INFO	Listening on port 60121
+Read port: 60121
+1656282328176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656282329793	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Lm7rFgrIBRo_ITQOHaUzgnXfknBPfX56ETeLWpEgtsk.js line 2 > eval line 3310 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1656282565370	geckodriver	INFO	Listening on 127.0.0.1:61145
+1656282565881	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61146" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileoTczh9"
+1656282566298	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileoTczh9/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:61146/devtools/browser/06d9d85c-086a-4492-8619-39ca91e84b0a
+1656282567872	Marionette	INFO	Listening on port 61179
+Read port: 61179
+1656282567963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1656282599070	Marionette	INFO	Stopped listening on port 59592
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656282600876	Marionette	INFO	Stopped listening on port 61179
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1656282668509	geckodriver	INFO	Listening on 127.0.0.1:61658
+1656282669021	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61659" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileS5I1M7"
+1656282669457	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileS5I1M7/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:61659/devtools/browser/68f1fa53-224d-4edf-aa26-4529e0aad30f
+1656282671072	Marionette	INFO	Listening on port 61694
+Read port: 61694
+1656282671100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Lm7rFgrIBRo_ITQOHaUzgnXfknBPfX56ETeLWpEgtsk.js line 2 > eval line 4763 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656282695344	geckodriver	INFO	Listening on 127.0.0.1:61855
+1656282695874	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61856" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileeFYKOg"
+1656282696253	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileeFYKOg/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:61856/devtools/browser/08b86f6e-a928-4779-a0f7-30c25ff66642
+1656282697821	Marionette	INFO	Listening on port 61887
+Read port: 61887
+1656282697850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Lm7rFgrIBRo_ITQOHaUzgnXfknBPfX56ETeLWpEgtsk.js line 2 > eval line 2213 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656282726472	geckodriver	INFO	Listening on 127.0.0.1:62067
+1656282726986	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62068" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofilebx2jvE"
+1656282727396	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofilebx2jvE/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:62068/devtools/browser/85203d8c-804e-48b0-ac3e-0605c6f882e4
+1656282728979	Marionette	INFO	Listening on port 62096
+Read port: 62096
+1656282729075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1656282745436	geckodriver	INFO	Listening on 127.0.0.1:62228
+1656282745444	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62229" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileP6mUHz"
+1656282745837	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofileP6mUHz/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:62229/devtools/browser/ff968b31-419a-41c4-b9a2-8a9cdcf367ef
+1656282747496	Marionette	INFO	Listening on port 62255
+Read port: 62255
+1656282747516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656282749075	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1656282751711	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656282765031	geckodriver	INFO	Listening on 127.0.0.1:62383
+1656282765041	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62384" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofilep0ZgN5"
+1656282765449	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofilep0ZgN5/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:62384/devtools/browser/cf645848-684d-4f37-a688-ae9cc761a268
+1656282767122	Marionette	INFO	Listening on port 62415
+Read port: 62415
+1656282767215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1656282787912	Marionette	INFO	Stopped listening on port 61694
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656282789604	Marionette	INFO	Stopped listening on port 61887
+1656282791305	Marionette	INFO	Stopped listening on port 62096
+1656282793040	Marionette	INFO	Stopped listening on port 62255
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656282794759	Marionette	INFO	Stopped listening on port 62415
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1656282887903	geckodriver	INFO	Listening on 127.0.0.1:62966
+1656282887911	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62967" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofilejYDyCh"
+1656282888303	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofilejYDyCh/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:62967/devtools/browser/81394a7d-62b0-446e-9292-3030c318cff6
+1656282889860	Marionette	INFO	Listening on port 62993
+Read port: 62993
+1656282889899	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1656282908112	geckodriver	INFO	Listening on 127.0.0.1:63129
+1656282908121	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63130" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofile1LGhHo"
+1656282908498	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/3_/wh51kb951t7db1mxlwnp141h0000gn/T/rust_mozprofile1LGhHo/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:63130/devtools/browser/0144c6ec-5fbe-4eab-b56b-ea44c6064539
+1656282910051	Marionette	INFO	Listening on port 63157
+Read port: 63157
+1656282910115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656282911612	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1656282914220	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1656282931254	Marionette	INFO	Stopped listening on port 62993
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+Invalid port. Exiting...
+Invalid port. Exiting...

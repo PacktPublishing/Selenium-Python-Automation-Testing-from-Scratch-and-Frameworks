@@ -1,0 +1,6 @@
+Framework code download
+For next few sections, we will learn on designing entire Selenium Pytest framework from scratch.
+You can download the code discussed in all below framework sections from this lecture.
+
+Resources for this section:
+"pythoTesting 2"
